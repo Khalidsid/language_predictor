@@ -1,4 +1,4 @@
 pandas 
-scikit-learn 
+sklearn 
 numpy 
 warnings
