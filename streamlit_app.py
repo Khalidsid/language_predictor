@@ -41,10 +41,6 @@ st.title("Language Detection Chat Interface")
 # Display creator's name in small fonts
 st.markdown("<sub>Creator: Md Khalid Siddiqui</sub>", unsafe_allow_html=True)
 
-# Track and display visitor count
-visitor_count = track_visitor_count()
-st.write(f"Visitor Count: {visitor_count}")
-
 
 # Display chat history
 if 'chat_history' in st.session_state:
