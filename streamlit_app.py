@@ -24,18 +24,6 @@ def predict_language(user_input):
 
     return predicted_language, probability_scores
 
-# Function to track and update visitor count
-def track_visitor_count():
-    query_params = st.experimental_get_query_params()
-    if 'visitor_count' in query_params:
-        visitor_count = int(query_params['visitor_count'][0])
-    else:
-        visitor_count = 0
-
-    visitor_count += 1
-    st.experimental_set_query_params(visitor_count=visitor_count)
-    return visitor_count
-
 # Function to track and update chat history
 def update_chat_history(user_input, predicted_language, confidence_score):
     if 'chat_history' not in st.session_state:
