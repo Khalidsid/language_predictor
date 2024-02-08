@@ -14,7 +14,7 @@ Streamlit Application: https://languagepredictor-nb.streamlit.app/
 
 Languages Trained on:
 
-Language         Examples
+Language         (Examples)
 1. English         1385
 2. French          1014
 3. Spanish         819
