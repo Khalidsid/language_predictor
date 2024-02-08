@@ -13,6 +13,7 @@ Deployment: streamlit_app.py files contains application deployment part only. ve
 Streamlit Application: https://languagepredictor-nb.streamlit.app/
 
 Languages Trained on:
+
 Language         Examples
 1. English         1385
 2. French          1014
